@@ -1,0 +1,30 @@
+
+.navbar {
+	margin-top: 1.5em;
+	margin-left: 5.5em;
+	border-radius: 100px;
+}
+.navbar-brand img{
+	width: 4em;
+	height: 4em;
+	margin-right: 2em;
+}
+.nav-item{
+	padding-right: 5em;
+}
+.carousel-item img{
+	width: 12em;
+	height: 12em;
+}
+
+.btn-outline-primary {
+	border-radius: 100px;
+	color: #0264B1;
+	border-color: #0264B1;
+	box-shadow: 5px 5px 5px rgba(1, 148, 218, 0.5);
+}
+
+.auth .btn-outline-primary {
+	width: 230px;
+} 
+
