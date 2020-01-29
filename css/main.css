@@ -12,14 +12,21 @@ h6, a {
 p {
 	font-size: 18px;
 }
+.nav {
+	width: 1318px;
+	display: flex;
+	justify-content: space-between;
+}
 
 .navbar {
-	/*margin-top: 1.5em;
-	margin-left: 5.5em;*/
-	margin: auto;
+	margin-top: 1.5em;
+	/*margin-left: 5.5em;*/
+	/*margin: 0 auto;*/
 	margin-top: 2em;
 	width: 1440px;
 	border-radius: 100px;
+	/*display: flex;
+	justify-content: space-between;*/
 }
 
 .navbar-brand img{
@@ -30,11 +37,11 @@ p {
 
 
 .nav-item{
-	padding-right: 5.2em;
+	/*padding-right: 5.2em;*/
 }
 
 .carousel-item img{
-	width: 12em;
+	/*width: 12em;*/
 	height: 12em;
 }
 
@@ -127,6 +134,7 @@ a.authorization-ref {
 hr {
 	background-color: #0193DD;
 	height: 10px;
+	/*margin: 0 auto;*/
 }
 
 .reg-holder {
