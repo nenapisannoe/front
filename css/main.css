@@ -2,6 +2,19 @@ body {
 	/*шрифт норм чет не подключается*/
 	margin: 0 auto;
 	width: 1440px;
+	
+}
+
+.rectangle {
+    width: 220px;
+    height: 45px;
+    background: #ffffff;
+	border: 1px #0264B1 solid;
+	border-radius: 60px;
+	box-shadow: 0.3em 0.3em 5px #81CAED;
+	text-align: center;
+	color: #0264B1;
+	padding: 9px; 
 }
 
 h6, a {
@@ -12,21 +25,22 @@ h6, a {
 p {
 	font-size: 18px;
 }
-.nav {
-	width: 1318px;
+
+.box {
+	margin-left: 230px;
+	margin-bottom: 10px;
+	/*width: 953px; */
 	display: flex;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
 }
 
 .navbar {
-	margin-top: 1.5em;
-	/*margin-left: 5.5em;*/
-	/*margin: 0 auto;*/
+	/*margin-top: 1.5em;
+	margin-left: 5.5em;*/
+	margin: auto;
 	margin-top: 2em;
 	width: 1440px;
 	border-radius: 100px;
-	/*display: flex;
-	justify-content: space-between;*/
 }
 
 .navbar-brand img{
@@ -37,11 +51,11 @@ p {
 
 
 .nav-item{
-	/*padding-right: 5.2em;*/
+	padding-right: 5.2em;
 }
 
 .carousel-item img{
-	/*width: 12em;*/
+	width: 12em;
 	height: 12em;
 }
 
@@ -120,6 +134,26 @@ p {
 	margin-bottom: 30px;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
 }
+	
+	
+    .knopka {
+	font-size: 40px;
+	text-align: center;
+	color: #0293DC; 
+	background: #FFFFFF; 
+	padding: 5px; 
+	border-radius: 10px;
+	border: 2px solid #0293DC;
+	margin-top: 20px;
+	margin-left: 15px;
+	box-shadow: 0.1em 0.1em 5px rgba(122,122,122,0.5);
+	width: 75px; 
+	height: 75px;
+	} 
+	
+	.knopka:hover { 
+	border: 2.5px solid #0264B1;
+	}
 
 button:focus {
 	outline: none;
@@ -134,7 +168,6 @@ a.authorization-ref {
 hr {
 	background-color: #0193DD;
 	height: 10px;
-	/*margin: 0 auto;*/
 }
 
 .reg-holder {
@@ -206,7 +239,6 @@ hr {
 .contacts {
 	display: flex;
 	color: #0165B3;
-	margin-left: 100px;
 }
 
 .organization {
@@ -238,91 +270,4 @@ img {
 
 .logo_filfac {
 	align-items: right;
-}
-
-.page_title {
-	text-align: center;
-	width: 1440px;
-}
-
-.page_title_header {
-	margin-left:150px;
-	margin-top: 30px;
-	border: 1px solid #0165B3;
-	box-shadow: 5px 5px 5px rgba(1, 148, 219, 0.5);
-	border-radius: 100px;
-	color: #0165B3;
-	font-size: 24px;
-	width: 1139px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
-.info_image{
-	position: relative;
-	width: 1240px;
-	/*margin-top: 50px;*/
-}
-
-.info_image img {
-	position: absolute;
-	opacity: 0.20;
-	margin-left: 530px;
-	width: 300px;
-	height: 300px;
-}
-
-.info_image p, .download_ref {
-	font-size: 18px;
-	position: relative;
-	color: #0165B3;
-	margin-top: 5px;
-	margin-left: 5em;
-	padding-left: 5px;
-}
-
-.paragraphs {
-	margin-top: 80px;
-}
-
-.paragraphs .important {
-	color: #EE1B24;
-}
-
-.download_ref {
-	font-size: 20px;
-	text-decoration: underline;
-}
-
-.download_ref:hover {
-	color: #0194DA;
-}
-
-.btn_try {
-	width: 1440px;
-	text-align: center;
-}
-
-.try_test_button {
-	color: #0194DA;
-	background: #fff;
-	margin: 100px;
-	box-shadow: 0px 5px 10px rgba(2, 147, 220, 0.6);
-	border-radius: 100px;
-	width: 350px;
-	height: 61px;
-	font-size: 24px;
-	border: solid #0194DA;
-	display: inline-block;
-	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-.try_test_button:hover {
-	background-color: #0194DA;
-	color: #fff;
-	border: none;
-}
-
-.try_test_button:active {
-  transform: translateY(4px);
 }
